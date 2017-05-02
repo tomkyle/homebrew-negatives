@@ -14,7 +14,7 @@ From [brew docs:](https://github.com/Homebrew/brew/blob/master/docs/brew-tap.md)
 
 
 
-## List of packages
+## List of formulae
 
 Well, not too much in here so far. 
 
