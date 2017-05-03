@@ -23,8 +23,15 @@ From [brew docs:](https://github.com/Homebrew/brew/blob/master/docs/brew-tap.md)
 
 ## List of formulae
 
-Well, not too much in here so far. 
 
+### lineartiff [project page](https://github.com/tomkyle/negatives-lineartiff)
+```bash
+# with tap installed:
+$ brew install lineartiff
+
+# ...or without having tap installed:
+$ brew install tomkyle/negatives/lineartiff
+```
 
 ### positive [project page](https://github.com/tomkyle/negatives-positive)
 ```bash
