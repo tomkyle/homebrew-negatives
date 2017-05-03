@@ -3,7 +3,12 @@
 
 This tap shall contain my tools for processing digital film negatives.
 
-## Optional: install tap
+## Requirements
+
+- Install [Homebrew](https://brew.sh/) on your Mac - [Installationsanleitung auf deutsch](https://brew.sh/index_de.html)
+
+
+## Install tap (optional) 
 
 
 ```bash
