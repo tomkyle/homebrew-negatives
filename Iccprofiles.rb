@@ -13,6 +13,6 @@ class Iccprofiles < Formula
 
 	def install
 		bin.install "iccprofiles"
-		prefix.install Dir["profiles"]
+		prefix.install "profiles"
 	end
 end
