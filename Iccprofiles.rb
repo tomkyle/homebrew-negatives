@@ -1,11 +1,11 @@
 class Iccprofiles < Formula
 	desc "ICC profiles for linear TIFF and digital film negative handling"
 	homepage "https://github.com/tomkyle/negatives-iccprofiles"
-	url "https://github.com/tomkyle/negatives-iccprofiles/archive/1.1.0.tar.gz"
-	sha256 "f54db7b32491eb09651de09a1af4bc29fcafca8259228eb4362d3dec8e5c93e3"
+	url "https://github.com/tomkyle/negatives-iccprofiles/archive/1.1.1.tar.gz"
+	sha256 "cb6bf1cd3c39dfe925e0b00254b7d19d04a679775db391e5ef8fb81d86d935d5"
 
 	# Redundant since version taken from archive link above.
-	# version "1.1.0"
+	# version "1.1.1"
 
 	bottle :unneeded
 
@@ -14,5 +14,8 @@ class Iccprofiles < Formula
 	def install
 		bin.install "iccprofiles"
 		prefix.install "profiles"
+		prefix.install "USAGE.txt"
+		prefix.install "CREDITS.txt"
+		prefix.install "LICENSE.txt"
 	end
 end
