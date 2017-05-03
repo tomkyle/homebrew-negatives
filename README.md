@@ -24,6 +24,7 @@ Well, not too much in here so far.
 ```bash
 # with tap installed:
 $ brew install iccprofiles
+
 # ...or without having tap installed:
 $ brew install tomkyle/negatives/iccprofiles
 ```
