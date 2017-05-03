@@ -25,6 +25,16 @@ From [brew docs:](https://github.com/Homebrew/brew/blob/master/docs/brew-tap.md)
 
 Well, not too much in here so far. 
 
+
+### positive [project page](https://github.com/tomkyle/negatives-positive)
+```bash
+# with tap installed:
+$ brew install positive
+
+# ...or without having tap installed:
+$ brew install tomkyle/negatives/positive
+```
+
 ### iccprofiles [project page](https://github.com/tomkyle/negatives-iccprofiles)
 ```bash
 # with tap installed:
@@ -33,3 +43,5 @@ $ brew install iccprofiles
 # ...or without having tap installed:
 $ brew install tomkyle/negatives/iccprofiles
 ```
+
+
