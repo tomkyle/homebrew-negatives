@@ -1,11 +1,11 @@
 class Iccprofiles < Formula
 	desc "ICC profiles for linear TIFF and digital film negative handling"
 	homepage "https://github.com/tomkyle/negatives-iccprofiles"
-	url "https://github.com/tomkyle/negatives-iccprofiles/archive/1.1.1.tar.gz"
-	sha256 "cb6bf1cd3c39dfe925e0b00254b7d19d04a679775db391e5ef8fb81d86d935d5"
+	url "https://github.com/tomkyle/negatives-iccprofiles/archive/1.1.2.tar.gz"
+	sha256 "181287e811871eec276c0aaebc31f032c666337efd2aaf03b8eeb46411dc22cc"
 
 	# Redundant since version taken from archive link above.
-	# version "1.1.1"
+	# version "1.1.2"
 
 	bottle :unneeded
 
