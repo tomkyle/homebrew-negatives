@@ -1,11 +1,11 @@
 class Positive < Formula
   desc "Convert digital film negatives (TIFF files) to positive images, using GNU Parallel for maximum speed."
   homepage "https://github.com/tomkyle/negatives-positive"
-  url "https://github.com/tomkyle/negatives-positive/archive/1.0.0.tar.gz"
-  sha256 "bda3347fe818fa6d7aa69bc89ab9531141de9d3a8c79eae8f087525ef3f683f9"
+  url "https://github.com/tomkyle/negatives-positive/archive/1.0.1.tar.gz"
+  sha256 "5328dd948abd63479465d151da7822b3d240d7176ba4bff2ed6940189af940f3"
 
   # Redundant since version taken from archive link above.
-  # version "1.0.0"
+  # version "1.0.1"
 
   bottle :unneeded
 
