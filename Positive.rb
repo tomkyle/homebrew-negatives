@@ -10,7 +10,7 @@ class Positive < Formula
   bottle :unneeded
 
   depends_on "little-cms2"
-  depends_on "imagemagick" => "little-cms2"
+  # depends_on "imagemagick" => "little-cms2"
   depends_on "tomkyle/negatives/iccprofiles"
 
   def install
