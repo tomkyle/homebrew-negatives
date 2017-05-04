@@ -1,14 +1,13 @@
 
 # homebrew-negatives
 
-This tap shall contain my tools for processing digital film negatives.
-
-## Requirements
-
-- Install [Homebrew](https://brew.sh/) on your Mac - [Installationsanleitung auf deutsch](https://brew.sh/index_de.html)
+**Bash scripts for converting and processing digital film negatives.**
 
 
-## Install tap (optional) 
+
+## Add this tap to Homebrew (OS X)
+
+First, make sure [Homebrew](https://brew.sh/) is installed. Add this Homebrew tap to your local Homebrew ecosystem:
 
 
 ```bash
