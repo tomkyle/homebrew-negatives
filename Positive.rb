@@ -9,7 +9,7 @@ class Positive < Formula
 
   bottle :unneeded
 
-  depends_on "imagemagick" => "with-little-cms2"
+  depends_on "imagemagick" => [ "with-little-cms2", :recommended ]
   depends_on "parallel"
   depends_on "tomkyle/negatives/iccprofiles"
 
