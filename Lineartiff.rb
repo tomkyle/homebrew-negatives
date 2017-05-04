@@ -1,5 +1,5 @@
 class Lineartiff < Formula
-  desc "Converts RAW/NEF/CR2 files into linear TIFF files, using GNU Parallel for maximum speed. B/W grayscaling, resizing and ZIP compression."
+  desc "Converts Raw photos to linear TIFF files. Powered by GNU Parallel."
   homepage "https://github.com/tomkyle/negatives-lineartiff"
   url "https://github.com/tomkyle/negatives-lineartiff/archive/1.0.1.tar.gz"
   sha256 "8021766276e1017efccdecbf2a1c0ed702d3811b2c01c8d9a31b79586c08be2e"
