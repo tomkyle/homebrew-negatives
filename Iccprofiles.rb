@@ -17,6 +17,9 @@ class Iccprofiles < Formula
   end
 
   test do
+    # Check if "iccprofiles [command]" is part of output
+    # when called without parameters.
+    # Expect exit code is 0 (subject to change).
     assert_match "iccprofiles \[command\]", shell_output("#{bin}/iccprofiles", 0)
   end
 end

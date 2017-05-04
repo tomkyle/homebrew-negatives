@@ -1,11 +1,8 @@
 class Lineartiff < Formula
   desc "Convert Raw photos to Linear TIFF: dcraw combined with GNU Parallel."
   homepage "https://github.com/tomkyle/negatives-lineartiff"
-  url "https://github.com/tomkyle/negatives-lineartiff/archive/1.0.1.tar.gz"
-  sha256 "8021766276e1017efccdecbf2a1c0ed702d3811b2c01c8d9a31b79586c08be2e"
-
-  # Redundant since version taken from archive link above.
-  # version "1.0.1"
+  url "https://github.com/tomkyle/negatives-lineartiff/archive/1.0.2.tar.gz"
+  sha256 "01c98bb41e0a0ba26aa927ea49fc08f5e5793ff9fe043da42260c30a7cd61dfb"
 
   bottle :unneeded
 
@@ -19,5 +16,12 @@ class Lineartiff < Formula
     prefix.install "USAGE"
     prefix.install "CREDITS"
     prefix.install "LICENSE"
+  end
+
+  test do
+    # Check if "lineartiff -a [OPTIONS]" is part of output
+    # when called without parameters.
+    # Expected exit code is 1.
+    assert_match "lineartiff \-a \[OPTIONS\]", shell_output("#{bin}/lineartiff", 1)
   end
 end
