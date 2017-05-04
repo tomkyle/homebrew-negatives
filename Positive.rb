@@ -1,5 +1,5 @@
 class Positive < Formula
-  desc "Convert digital film negatives (TIFF files) to positive images, using GNU Parallel for maximum speed."
+  desc "Convert film negatives (TIFF files) to positives. Powered by GNU Parallel."
   homepage "https://github.com/tomkyle/negatives-positive"
   url "https://github.com/tomkyle/negatives-positive/archive/1.0.1.tar.gz"
   sha256 "5328dd948abd63479465d151da7822b3d240d7176ba4bff2ed6940189af940f3"
@@ -9,7 +9,7 @@ class Positive < Formula
 
   bottle :unneeded
 
-  depends_on "imagemagick"
+  depends_on "imagemagick" => "with-little-cms2"
   depends_on "parallel"
   depends_on "tomkyle/negatives/iccprofiles"
 
