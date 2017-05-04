@@ -24,7 +24,12 @@ From [brew docs:](https://github.com/Homebrew/brew/blob/master/docs/brew-tap.md)
 ## List of formulae
 
 
-### lineartiff [project page](https://github.com/tomkyle/negatives-lineartiff)
+### lineartiff 
+
+Converts RAW/NEF/CR2 files into linear TIFF files, using GNU Parallel for maximum speed.  
+Other features: B/W grayscaling, TIF resizing and ZIP compression.  
+[Project page](https://github.com/tomkyle/negatives-lineartiff)
+
 ```bash
 # with tap installed:
 $ brew install lineartiff
@@ -33,7 +38,12 @@ $ brew install lineartiff
 $ brew install tomkyle/negatives/lineartiff
 ```
 
-### positive [project page](https://github.com/tomkyle/negatives-positive)
+### positive 
+
+Converts digital film negatives (TIFF files) to positive images, using GNU Parallel for timesaving.  
+Other features: Gamma correction, sigmoidal contrast enhancement, resizing, JPG conversion  
+[Project page](https://github.com/tomkyle/negatives-positive)
+
 ```bash
 # with tap installed:
 $ brew install positive
@@ -42,7 +52,11 @@ $ brew install positive
 $ brew install tomkyle/negatives/positive
 ```
 
-### iccprofiles [project page](https://github.com/tomkyle/negatives-iccprofiles)
+### iccprofiles 
+
+Makes ICC profiles for handling linear TIFF and digital film negatives available.  
+[Project page](https://github.com/tomkyle/negatives-iccprofiles)
+
 ```bash
 # with tap installed:
 $ brew install iccprofiles
