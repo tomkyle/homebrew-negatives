@@ -17,6 +17,6 @@ class Iccprofiles < Formula
   end
 
   test do
-    assert_match "iccprofiles \[command\]", shell_output("#{bin}/iccprofiles", 1)
+    assert_match "iccprofiles \[command\]", shell_output("#{bin}/iccprofiles", 0)
   end
 end
