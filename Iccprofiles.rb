@@ -15,4 +15,8 @@ class Iccprofiles < Formula
     prefix.install "CREDITS.txt"
     prefix.install "LICENSE.txt"
   end
+
+  test do
+    assert_match "iccprofiles \[command\]", shell_output("#{bin}/iccprofiles", 1)
+  end
 end
