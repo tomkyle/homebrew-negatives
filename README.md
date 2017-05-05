@@ -51,17 +51,17 @@ $ brew install positive
 $ brew install tomkyle/negatives/positive
 ```
 
-### iccprofiles 
+### color-profiles 
 
 Makes ICC profiles for handling linear TIFF and digital film negatives available.  
-[Project page](https://github.com/tomkyle/negatives-iccprofiles)
+[Project page](https://github.com/tomkyle/negatives-color-profiles)
 
 ```bash
 # with tap installed:
-$ brew install iccprofiles
+$ brew install color-profiles
 
 # ...or without having tap installed:
-$ brew install tomkyle/negatives/iccprofiles
+$ brew install tomkyle/negatives/color-profiles
 ```
 
 
