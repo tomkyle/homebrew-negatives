@@ -1,8 +1,8 @@
 class ColorProfiles < Formula
   desc "Color profiles for linear and digital film negative TIFF handling"
   homepage "https://github.com/tomkyle/negatives-color-profiles"
-  url "https://github.com/tomkyle/negatives-color-profiles/archive/1.2.0.tar.gz"
-  sha256 "975a4ab9f847743dbe4105b66b394ad828f34dbe478ab960331c2dbf7ec4c970"
+  url "https://github.com/tomkyle/negatives-color-profiles/archive/1.2.1.tar.gz"
+  sha256 "d5c1684e60693424f81dd96cc90467a6ddee12ab59dc5cdc2ce673a827f52bd4"
 
   bottle :unneeded
 

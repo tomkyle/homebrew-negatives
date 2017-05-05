@@ -1,8 +1,8 @@
 class Positive < Formula
   desc "Convert film negative TIFFs to positives. Powered by GNU Parallel."
   homepage "https://github.com/tomkyle/negatives-positive"
-  url "https://github.com/tomkyle/negatives-positive/archive/1.0.5.tar.gz"
-  sha256 "507d395b6ea66f4bad68bff01456f9dc613ed097111f78c52e5a43e4d1eb2fd5"
+  url "https://github.com/tomkyle/negatives-positive/archive/1.0.6.tar.gz"
+  sha256 "f6da0d27faf310c275d2f65ef98843a4e825e9e7f40afe71cbda9c987c8a6561"
 
   bottle :unneeded
 
