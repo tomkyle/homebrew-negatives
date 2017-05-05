@@ -1,33 +1,47 @@
 
 # homebrew-negatives
 
-**Bash scripts for converting and processing digital film negatives.**
+**Convert and process your digital film negatives. Bash scripts for OSX.**
 
 
 
-## Add this tap to Homebrew (OS X)
+## Requirements
 
-First, make sure [Homebrew](https://brew.sh/) is installed. Add this Homebrew tap to your local Homebrew ecosystem:
+Make sure to have the [Homebrew](https://brew.sh/) package manager for OSX installed. The [installation instructions](https://brew.sh/) may look weird to first-timers, but it's really done in a minute. 
 
+**Optional, but recommended:** Make this *homebrew-negatives* *tap* and its included tools available to your local Homebrew ecosystem. Quoted from Homebrew docs: 
+> `brew` will be able to work on those formulae as if they were in Homebrew's canonical repository. You can install and uninstall them with `brew [un]install`, and the formulae are automatically updated when you run brew update.
+
+To install the tap, open your terminal and enter this command:
 
 ```bash
 $ brew tap tomkyle/negatives
 ```
 
-From [brew docs:](https://github.com/Homebrew/brew/blob/master/docs/brew-tap.md)
-
-> After that, `brew` will be able to work on those formulae as if they were in Homebrew's canonical repository. You can install and uninstall them with `brew [un]install`, and the formulae are automatically updated when you run brew update. 
 
 
+## Installation
 
-## List of formulae
+To install all programs, open your terminal and type:
 
+
+```bash
+$ brew install linear-tiff positive
+```
+
+
+# Formulae
+
+## Scripts for you
 
 ### linear-tiff 
 
 Converts RAW/NEF/CR2 files into linear TIFF files, using GNU Parallel for maximum speed.  
 Other features: B/W grayscaling, TIF resizing and ZIP compression.  
-[Project page](https://github.com/tomkyle/negatives-linear-tiff)
+
+[Documentation](https://github.com/tomkyle/negatives-linear-tiff) &middot;
+[Usage](https://github.com/tomkyle/negatives-linear-tiff#usage) &middot; 
+[Options](https://github.com/tomkyle/negatives-linear-tiff#options)
 
 ```bash
 # with tap installed:
@@ -40,8 +54,11 @@ $ brew install tomkyle/negatives/linear-tiff
 ### positive 
 
 Converts digital film negatives (TIFF files) to positive images, using GNU Parallel for timesaving.  
-Other features: Gamma correction, sigmoidal contrast enhancement, resizing, JPG conversion  
-[Project page](https://github.com/tomkyle/negatives-positive)
+Other features: Gamma correction, sigmoidal contrast enhancement, resizing and flipping, JPG conversion.
+  
+[Documentation](https://github.com/tomkyle/negatives-positive) &middot; 
+[Usage](https://github.com/tomkyle/negatives-positive#usage) &middot; 
+[Options](https://github.com/tomkyle/negatives-positive#options)
 
 ```bash
 # with tap installed:
@@ -51,10 +68,18 @@ $ brew install positive
 $ brew install tomkyle/negatives/positive
 ```
 
+
+
+## Helpers and dependencies
+
+You do not need to install these tools manually, as they are needed by the tools above and thus are installed automatically.
+
 ### color-profiles 
 
 Makes ICC profiles for handling linear TIFF and digital film negatives available.  
-[Project page](https://github.com/tomkyle/negatives-color-profiles)
+Both *positive* and *linear-tiff* use it as dependency.  
+
+[Documentation](https://github.com/tomkyle/negatives-color-profiles)
 
 ```bash
 # with tap installed:
