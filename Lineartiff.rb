@@ -9,7 +9,7 @@ class Lineartiff < Formula
   depends_on "dcraw"
   depends_on "imagemagick"
   depends_on "parallel"
-  depends_on "tomkyle/negatives/iccprofiles"
+  depends_on "tomkyle/negatives/color-profiles"
 
   def install
     bin.install "lineartiff"
