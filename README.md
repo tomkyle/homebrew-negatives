@@ -23,18 +23,18 @@ From [brew docs:](https://github.com/Homebrew/brew/blob/master/docs/brew-tap.md)
 ## List of formulae
 
 
-### lineartiff 
+### linear-tiff 
 
 Converts RAW/NEF/CR2 files into linear TIFF files, using GNU Parallel for maximum speed.  
 Other features: B/W grayscaling, TIF resizing and ZIP compression.  
-[Project page](https://github.com/tomkyle/negatives-lineartiff)
+[Project page](https://github.com/tomkyle/negatives-linear-tiff)
 
 ```bash
 # with tap installed:
-$ brew install lineartiff
+$ brew install linear-tiff
 
 # ...or without having tap installed:
-$ brew install tomkyle/negatives/lineartiff
+$ brew install tomkyle/negatives/linear-tiff
 ```
 
 ### positive 

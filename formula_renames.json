@@ -1,3 +1,4 @@
 {
-  "iccprofiles": "color-profiles"
+  "iccprofiles": "color-profiles",
+  "lineartiff": "linear-tiff"
 }
