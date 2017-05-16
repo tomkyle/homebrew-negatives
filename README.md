@@ -37,7 +37,7 @@ $ brew install linear-tiff positive
 ### [linear-tiff](https://github.com/tomkyle/negatives-linear-tiff) 
 
 Converts RAW/NEF/CR2 files into linear TIFF files, using GNU Parallel for maximum speed.  
-Other features: B/W grayscaling, TIF resizing and ZIP compression.  
+Other features: ICC profiles, image mirroring, B/W grayscaling, TIF resizing and ZIP compression.  
 
 [Documentation](https://github.com/tomkyle/negatives-linear-tiff) &middot;
 [Usage](https://github.com/tomkyle/negatives-linear-tiff#usage) &middot; 
