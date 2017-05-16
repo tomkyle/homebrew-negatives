@@ -1,13 +1,13 @@
 
 # homebrew-negatives
 
-**Convert and process your digital film negatives. Bash scripts for Mac OS.**
+**Convert and process your digital film negatives. Bash scripts for MacOS.**
 
 
 
 ## Requirements
 
-Make sure to have the [Homebrew](https://brew.sh/) package manager for OSX installed. The [installation instructions](https://brew.sh/) may look weird to first-timers, but it's really done in a minute. 
+Make sure to have the [Homebrew](https://brew.sh/) package manager for MacOS installed. The [installation instructions](https://brew.sh/) may look weird to first-timers, but it's really done in a minute. 
 
 **Optional, but recommended:** Make this *homebrew-negatives* *tap* and its included tools available to your local Homebrew ecosystem. Quoted from Homebrew docs: 
 > `brew` will be able to work on those formulae as if they were in Homebrew's canonical repository. You can install and uninstall them with `brew [un]install`, and the formulae are automatically updated when you run brew update.
