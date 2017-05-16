@@ -1,7 +1,7 @@
 
 # homebrew-negatives
 
-**Convert and process your digital film negatives. Bash scripts for OSX.**
+**Convert and process your digital film negatives. Bash scripts for Mac OS.**
 
 
 
