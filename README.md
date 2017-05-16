@@ -34,7 +34,7 @@ $ brew install linear-tiff positive
 
 ## Scripts for you
 
-### linear-tiff 
+### [linear-tiff](https://github.com/tomkyle/negatives-linear-tiff) 
 
 Converts RAW/NEF/CR2 files into linear TIFF files, using GNU Parallel for maximum speed.  
 Other features: B/W grayscaling, TIF resizing and ZIP compression.  
@@ -51,7 +51,7 @@ $ brew install linear-tiff
 $ brew install tomkyle/negatives/linear-tiff
 ```
 
-### positive 
+### [positive](https://github.com/tomkyle/negatives-positive) 
 
 Converts digital film negatives (TIFF files) to positive images, using GNU Parallel for timesaving.  
 Other features: Gamma correction, sigmoidal contrast enhancement, resizing and flipping, JPG conversion.
