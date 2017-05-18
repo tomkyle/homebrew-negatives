@@ -1,8 +1,8 @@
 class Positive < Formula
   desc "Convert film negative TIFFs to positives. Powered by GNU Parallel."
   homepage "https://github.com/tomkyle/negatives-positive"
-  url "https://github.com/tomkyle/negatives-positive/archive/1.0.6.tar.gz"
-  sha256 "f6da0d27faf310c275d2f65ef98843a4e825e9e7f40afe71cbda9c987c8a6561"
+  url "https://github.com/tomkyle/negatives-positive/archive/1.1.0.tar.gz"
+  sha256 "53ea29084a02635976fa305df4c67a9c825bd67ae0ecb1aa47e933c70cfc1034"
 
   bottle :unneeded
 
@@ -18,9 +18,9 @@ class Positive < Formula
   end
 
   test do
-    # Check if "positive -a [OPTIONS]" is part of output
+    # Check if "positive --help" is part of output
     # when called without parameters.
     # Expected exit code is 1.
-    assert_match "positive \-a \[OPTIONS\]", shell_output("#{bin}/positive", 1)
+    assert_match "positive \-\-help", shell_output("#{bin}/positive", 1)
   end
 end
