@@ -6,6 +6,7 @@ class Positive < Formula
 
   bottle :unneeded
 
+
   depends_on "imagemagick"
   depends_on "parallel"
   depends_on "tomkyle/negatives/color-profiles"
