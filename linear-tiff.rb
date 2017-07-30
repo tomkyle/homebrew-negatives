@@ -1,8 +1,8 @@
 class LinearTiff < Formula
   desc "Convert Raw photos to Linear TIFF: dcraw combined with GNU Parallel."
   homepage "https://github.com/tomkyle/negatives-linear-tiff"
-  url "https://github.com/tomkyle/negatives-linear-tiff/archive/1.1.6.tar.gz"
-  sha256 "381ab311ad6ac757fcbe07669663e97ef2915e57899915361031e581a99fd2a2"
+  url "https://github.com/tomkyle/negatives-linear-tiff/archive/1.1.7.tar.gz"
+  sha256 "0a438a66fad6e2452fb5b9598da809d1d7916e73c11253b496edd392d28f3bbd"
 
   bottle :unneeded
 
