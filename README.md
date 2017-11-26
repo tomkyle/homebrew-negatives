@@ -95,9 +95,7 @@ You do not need to install these tools manually, as they are needed by the tools
 ### color-profiles 
 
 Makes ICC profiles for handling linear TIFF and digital film negatives available.  
-Both *positive* and *linear-tiff* use it as dependency.  
-
-[Documentation](https://github.com/tomkyle/negatives-color-profiles)
+Both *positive* and *linear-tiff* use it as dependency. [Documentation](https://github.com/tomkyle/negatives-color-profiles)
 
 ```bash
 # with tap installed:
@@ -106,5 +104,19 @@ $ brew install color-profiles
 # ...or without having tap installed:
 $ brew install tomkyle/negatives/color-profiles
 ```
+
+
+### curvefit
+
+Finds X (or Y) value for a given Y (or X, resp.) by polynomial interpolation. [Documentation](https://github.com/tomkyle/curvefit)
+
+```bash
+# with tap installed:
+$ brew install curvefit
+
+# ...or without having tap installed:
+$ brew install tomkyle/negatives/curvefit
+```
+
 
 
