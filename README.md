@@ -51,6 +51,24 @@ $ brew install linear-tiff
 $ brew install tomkyle/negatives/linear-tiff
 ```
 
+### [ndeviation](https://github.com/tomkyle/ndeviation) 
+
+Calculates 'N' deviation for a series of exposures and film densities, commonly referred to as push and pull processing. Requires Python.
+
+  
+[Documentation](https://github.com/tomkyle/ndeviation) &middot; 
+[Usage](https://github.com/tomkyle/ndeviation#usage) &middot; 
+[Examples](https://github.com/tomkyle/ndeviation#examples)
+
+```bash
+# with tap installed:
+$ brew install ndeviation
+
+# ...or without having tap installed:
+$ brew install tomkyle/negatives/ndeviation
+```
+
+
 ### [positive](https://github.com/tomkyle/negatives-positive) 
 
 Converts digital film negatives (TIFF files) to positive images, using GNU Parallel for timesaving.  
