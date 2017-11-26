@@ -1,4 +1,4 @@
-class Positive < Formula
+class Ndeviation < Formula
   desc "Calculates push/pull 'N' deviation for developed film densities."
   homepage "https://github.com/tomkyle/ndeviation"
   url "https://github.com/tomkyle/ndeviation/archive/1.0.0.tar.gz"
