@@ -1,7 +1,7 @@
 class Curvefit < Formula
   desc "Finds X/Y value for a given Y/X by polynomial interpolation."
-  homepage "https://github.com/tomkyle/ndeviation"
-  url "https://github.com/tomkyle/curvefit/archive/1.0.2.tar.gz"
+  homepage "https://github.com/filmspeed/curvefit"
+  url "https://github.com/filmspeed/curvefit/archive/1.0.2.tar.gz"
   sha256 "83dc652840bac0975a61e1b2d9f9bb8040b863fcc993adcae6e6510357d69f58"
 
   bottle :unneeded
