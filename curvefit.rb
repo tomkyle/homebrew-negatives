@@ -1,13 +1,15 @@
 class Curvefit < Formula
   desc "Finds X/Y value for a given Y/X by polynomial interpolation."
   homepage "https://github.com/tomkyle/ndeviation"
-  url "https://github.com/tomkyle/curvefit/archive/1.0.0.tar.gz"
-  sha256 "be2d7225032ef736bc857823988b63cdb2e73185bbd3ec6d4e67beec4370a4e3"
+  url "https://github.com/tomkyle/curvefit/archive/1.0.1.tar.gz"
+  sha256 "ccc6a07ed3a0ac6988c8e370bec794b0adbf6d2c764e1781da6da49d57f4605f"
 
   bottle :unneeded
 
 
   depends_on :python
+  depends_on "numpy"
+  depends_on "matplotlib"
 
   def install
     bin.install "curvefit"

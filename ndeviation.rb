@@ -1,13 +1,14 @@
 class Ndeviation < Formula
   desc "Calculates push/pull 'N' deviation for developed film densities."
   homepage "https://github.com/tomkyle/ndeviation"
-  url "https://github.com/tomkyle/ndeviation/archive/1.0.0.tar.gz"
-  sha256 "4ac06a36aff2f55eea3c0b32edc765d7b899975ddeee30120abe63515f5eb76d"
+  url "https://github.com/tomkyle/ndeviation/archive/1.0.4.tar.gz"
+  sha256 "baff18a1e57300f702ebc6014e2b90c962c77847ae56087ede41ff69059e75a0"
 
   bottle :unneeded
 
 
   depends_on :python
+  depends_on "tomkyle/negatives/curvefit"
 
   def install
     bin.install "ndeviation"
