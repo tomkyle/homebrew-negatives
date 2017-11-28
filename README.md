@@ -32,6 +32,16 @@ $ brew install linear-tiff positive
 
 # Formulae
 
+## Moved formulae
+
+These tools have moved to [filmspeed/homebrew-filmspeed](https://github.com/filmspeed/homebrew-filmspeed) and are no longer available in this tap:
+
+- **tomkyle/negatives/ndeviation** is now [filmspeed/ndeviation](https://github.com/filmspeed/ndeviation) 
+- **tomkyle/negatives/curvefit** is now [filmspeed/curvefit](https://github.com/filmspeed/curvefit) 
+
+
+
+
 ## Scripts for you
 
 ### [linear-tiff](https://github.com/tomkyle/negatives-linear-tiff) 
@@ -51,22 +61,6 @@ $ brew install linear-tiff
 $ brew install tomkyle/negatives/linear-tiff
 ```
 
-### [ndeviation](https://github.com/tomkyle/ndeviation) 
-
-Calculates 'N' deviation for a series of exposures and film densities, commonly referred to as push and pull processing. Requires Python.
-
-  
-[Documentation](https://github.com/tomkyle/ndeviation) &middot; 
-[Usage](https://github.com/tomkyle/ndeviation#usage) &middot; 
-[Examples](https://github.com/tomkyle/ndeviation#examples)
-
-```bash
-# with tap installed:
-$ brew install ndeviation
-
-# ...or without having tap installed:
-$ brew install tomkyle/negatives/ndeviation
-```
 
 
 ### [positive](https://github.com/tomkyle/negatives-positive) 
@@ -105,18 +99,6 @@ $ brew install color-profiles
 $ brew install tomkyle/negatives/color-profiles
 ```
 
-
-### curvefit
-
-Finds X (or Y) value for a given Y (or X, resp.) by polynomial interpolation. [Documentation](https://github.com/tomkyle/curvefit)
-
-```bash
-# with tap installed:
-$ brew install curvefit
-
-# ...or without having tap installed:
-$ brew install tomkyle/negatives/curvefit
-```
 
 
 
