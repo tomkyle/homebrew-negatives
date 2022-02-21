@@ -4,8 +4,6 @@ class ColorProfiles < Formula
   url "https://github.com/tomkyle/negatives-color-profiles/archive/1.2.1.tar.gz"
   sha256 "d5c1684e60693424f81dd96cc90467a6ddee12ab59dc5cdc2ce673a827f52bd4"
 
-  bottle :unneeded
-
   depends_on "little-cms2"
 
   def install

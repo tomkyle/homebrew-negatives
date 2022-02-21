@@ -4,9 +4,6 @@ class Positive < Formula
   url "https://github.com/tomkyle/negatives-positive/archive/1.1.8.tar.gz"
   sha256 "72a344e973315748d362a782d76a33c320041f9f9627e548be9f96c1470b6e99"
 
-  bottle :unneeded
-
-
   depends_on "imagemagick"
   depends_on "parallel"
   depends_on "tomkyle/negatives/color-profiles"
